@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .first_box{
+    display: flex;
+    justify-content: center;
+}
+
+.first .qus{
+    border: none;
+    outline: none;
+}
+.first_row{
+    padding: 10px;
+    margin: 5px;
+}
+.first_row input{
+    margin: 5px 0px;
+}
+.row input{
+    width: 80%;
+}
+
+.row i{
+    width: 20%;
+}
+
+.poll_len,.reply{
+    display: flex;
+    justify-content: space-between;
+}
+.first button{
+    border: none;
+    background-color: white;
+    padding: 5px;
+}
+.card{
+    margin: 20px 10px;
+    padding: 15px 10px;
+}
+
+.opt input{
+    width: 10%;
+}
+.opt{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin: 5px 10px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+.opt_name{
+    width: 90%;
+}
+.opt p{
+    width: 10%;
+    float: right;
+}
+.opt progress{
+    width: 90%;
+    margin: 5px 25px;
+}
+.icons{
+    text-align: center;
+}
+
+
+.reply input{
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+#reply_btn{
+    padding: 3px 20px;
+    border: none;
+    background-color: rgb(101, 143, 206);
+    border-radius: 20px;
+}
+
+.type_poll{
+    text-align: left;
+}
+.votes{
+    background-color: rgb(123, 108, 209);
+    position: absolute;
+    top: -8px;
+    right: 5px;
+    padding: 2px;
+    border-radius: 10px;
+    
+}
+.poll_card{
+    position: relative;
+    border: none;
+    box-shadow: 5px 2px 10px 5px lightgrey;
+    border-radius: 5px;
+    padding: 15px 5px;
+    margin: 20px auto;
+}
+
+.poll_type{
+    background-color: rgb(123, 108, 209);
+    padding: 5px 8px;
+    border-radius: 12px;
+}
+.qus{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+#view{
+    width: 5%;
+}
+
+.r1{
+    display: flex;
+}
+.one{
+    float: left;
+    width: 70%;
+}
+.two{
+    float: right;
+    width: 30%;
+    text-align: right;
+}
